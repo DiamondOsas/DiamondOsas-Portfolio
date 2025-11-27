@@ -2,4 +2,6 @@
 
 body {
   font-family: 'IBM Plex Mono', monospace;
+  background-color: #0B1120; /* Dark slate */
+  color: #E2E8F0; /* Slate 200 */
 }
