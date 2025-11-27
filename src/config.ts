@@ -1,91 +1,95 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Diamond Osazuwa Eyinjuoluwa",
+  title: "Software Engineering Student | Backend Developer",
+  description: "Portfolio website of Diamond Osazuwa Eyinjuoluwa",
+  accentColor: "#60A5FA", // Light blue that pops on dark background
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "diamondosazuwa@gmail.com",
+    linkedin: "#", // Coming soon
+    twitter: "#", // Coming soon
+    github: "https://github.com/DiamondOsas",
+    discord: "@diamondosas",
+    telegram: "@diamondosas",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Ambitious 2nd-year Software Engineering student at Mountain Top University with a strong foundation in backend development and system architecture. Passionate about building scalable applications using Golang and Python. I have hands-on experience deploying services to cloud platforms like Koyeb and Render. Seeking an internship where I can contribute to real-world software solutions while further developing my skills as an aspiring Software Architect.",
+  skills: [
+    "Golang (Go)",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Docker",
+    "Git/GitHub",
+    "REST APIs",
+    "Networking",
+    "Koyeb",
+    "Render",
+    "Technical Communication",
+    "Problem Solving",
+    "Rapid Learning"
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "QuizNation",
+      description: "A quiz application platform. Check out the code on GitHub.",
+      link: "https://github.com/DiamondOsas/QuizNation",
+      skills: ["Software Development"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Simple Python SpamBot AI/ML",
+      description: "A simple spam bot using Python with AI/ML capabilities.",
+      link: "https://github.com/DiamondOsas/Simple-Python-SpamBot-AI-ML",
+      skills: ["Python", "AI", "ML"],
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Attendance Tracker",
+      description: "A system for tracking attendance.",
+      link: "https://github.com/DiamondOsas/Attendance-Tracker",
+      skills: ["Software Development"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "VorifyMe",
+      title: "Lead Developer",
+      dateRange: "Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Architecting a security and verification solution aimed at protecting user data.",
+        "Designed the backend infrastructure using Golang, focusing on speed and secure data handling.",
+        "Managed containerization using Docker to ensure consistent environments across development and production.",
       ],
+      link: "https://github.com/blade-mx4/VorifyME"
     },
     {
-      company: "Startup Inc",
+      company: "Tax Management Application",
       title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      dateRange: "Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Built a comprehensive tax management tool to help users track and calculate tax liabilities.",
+        "Developed the backend logic to handle complex calculations and data storage.",
+        "Successfully deployed the backend services to Render and Koyeb, ensuring high availability and uptime for users.",
       ],
+      link: "https://github.com/DiamondOsas/TaxMate"
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Aethel",
+      title: "Volunteer Contributor",
+      dateRange: "Present",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Collaborated with a team of developers on the Aethel open-source project.",
+        "Contributed code improvements and helped refine the website's functionality.",
+        "Gained experience in code reviews, version control (Git), and working in a collaborative software engineering environment.",
       ],
+      link: "https://github.com/DiamondOsas/aethel"
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Mountain Top University",
+      degree: "B.Sc. Software Engineering",
+      dateRange: "Current Level: 200 (Year 2)",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Relevant Coursework: Programming Logic, Data Structures, Web Development.",
       ],
     },
   ],
