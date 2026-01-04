@@ -1,3 +1,12 @@
+20:58:59 [types] Generated 1ms
+20:59:00 [content] Syncing content
+20:59:00 [content] Synced content
 
-> devportfolio@0.0.1 dev
-> astro dev
+ astro  v5.16.6 ready in 589 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  http://192.168.0.2:4321/
+
+20:59:00 watching for file changes...
+20:59:34 [200] / 81ms
+21:00:09 [200] / 16ms
